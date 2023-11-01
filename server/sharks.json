@@ -1,0 +1,18 @@
+[
+    {
+      "type": "Great white",
+      "id": 1
+    },
+    {
+      "type": "Ground",
+      "id": 2
+    },
+    {
+      "type": "Tiger",
+      "id": 3
+    },
+    {
+      "type": "Blue",
+      "id": 4
+    }
+  ]
