@@ -44,11 +44,14 @@ app.post('/sharks', (req, res) => {
     })
 
 app.patch('/sharks/:id', (req, res) => {
+    const shark = req.body
+    sharks.push(shark)
 
+    res.status(201).send(sharks)
 })
 
 app.delete('/sharks/:id', (req, res) => {
-    
+    sharks.pop()
 })
 
 
